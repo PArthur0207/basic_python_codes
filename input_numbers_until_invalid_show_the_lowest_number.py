@@ -12,3 +12,4 @@ while True: # Repeat until input is invalid
 # Identify the lowest number
 lowest_number = min(number_list)
 # Print the lowest number
+print(f"The lowest number you have inputted is {lowest_number}")
