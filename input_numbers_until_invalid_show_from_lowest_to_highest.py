@@ -1,9 +1,13 @@
 # Store the inputted numbers in a dictionary
 number_list = []
 
-# Asks the user to input number
-number = int(input("Please input the number here: "))
-number_list.append(number)
+while True: # Keep asking until input is invalid
+    try:
+        # Asks the user to input number
+        number = int(input("Please input the number here: "))
+        number_list.append(number)
+    except ValueError:
+        print("Inalid input")
+        break
 
-# Keep asking until input is invalid
-# Print the numbers from lowes to highest
+# Print the numbers from lowest to highest
