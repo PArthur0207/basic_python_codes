@@ -8,3 +8,4 @@ for rep in range(10):
     total = total + number # Add the result of the inputted numbers   
 
 # Print the sum of the 10 numbers
+print(f"The total of your numbers is {total}")
