@@ -2,3 +2,5 @@
 num1 = int(input("Input the first number here: "))
 num2 = int(input("Input the second number here: "))
 # Check if the inputted numbers is not equal, print NOT EQUAL if yes
+if num1 != num2:
+    print("NOT EQUAL")
