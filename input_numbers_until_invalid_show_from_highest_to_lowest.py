@@ -10,6 +10,7 @@ while True:
     except ValueError:
         print("Invalid input. Ending run")
         break
-print(number_list)
 
 # Put into highest to lowest order, and print the result
+number_list.sort(reverse=True)
+print(f"Your numbers in descending order is {number_list}")
